@@ -1,0 +1,46 @@
+h1{
+    background: #DB7093;
+    padding: 1em;
+    margin-bottom: 9px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px ;
+    margin-top: 20px;
+}
+
+.receitas{/*receitas para o geral*/
+    width: 940px;
+    margin-left: 30px;
+    padding: 50px 0;
+}
+
+.receitas-bolo, .receitas-tortas, .receitas-docinhos{ /*receitas para cada card*/
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1.7px solid #DB7093;
+    box-shadow:  0.5px 0.5px 10px 2px #FFB6C1;
+}
+
+.receitas li:hover{
+    border: 2px solid;
+    border-color: #FF1493;
+    font-size: 20px;
+    
+}
+
+.receitas p, h2{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.receitas p{
+    color: #FFA07A;
+}
