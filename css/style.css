@@ -1,0 +1,96 @@
+body, button{
+    font-family: 'Mali', cursive;
+}
+
+
+h1{
+    background: #DB7093;
+    padding: 0.8em;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+nav button{
+    display: inline-block;
+    margin-left: 15px;
+    border: none;
+    background: none;
+}
+
+nav button:hover{
+    text-decoration: underline 2px #FF1493;
+    cursor: pointer;
+}
+
+nav button:focus{
+    text-decoration: underline 2px #FF1493;
+}
+
+
+div{
+    background-color: #fff;
+}
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+}
+
+.receitas{/*receitas para o geral*/
+    width: 940px;
+    margin-left: 30px;
+    margin-top: 7%;
+    padding: 50px 0;
+}
+
+.receitas-bolo, .receitas-tortas, .receitas-docinhos{ /*receitas para cada card*/
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    border: 1.7px solid #DB7093;
+    box-shadow:  0.5px 0.5px 10px 2px #FFB6C1;
+}
+
+.receitas li:hover{
+    border: 2px solid;
+    border-color: #FF1493;
+    font-size: 18px;
+    
+}
+
+.receitas p, h2{
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.receitas p{
+    color: #FFA07A;
+}
+
+.coracao-like{
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    
+}
+
+.coracao-like:hover{
+    cursor: pointer;
+  
+}
+
+.coracao-like:active{
+    cursor: pointer;
+    font-size: 24px;
+}
+
